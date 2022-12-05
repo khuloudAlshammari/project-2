@@ -158,7 +158,7 @@ import 'package:projeckt2/componet/gridFormHome.dart';
                          alignment: Alignment.bottomRight,
                          child: Text(
                            "See All",
-                           style: TextStyle(color: Color(0xff446388)),
+                           style: TextStyle(color: Color.fromARGB(255, 73, 103, 140)),
                          ))
                    ],
                  ),
@@ -171,7 +171,7 @@ import 'package:projeckt2/componet/gridFormHome.dart';
                  padding: const EdgeInsets.only(top: 10,left: 18),
                  child: Align(
                    alignment: Alignment.centerLeft,
-                   child: Text("Recent Send Money",style: TextStyle(fontSize: 25),)),
+                   child: Text("Recent Send Money",style: TextStyle(fontSize: 25,fontWeight: FontWeight.normal),)),
                ),
 
                Padding(
